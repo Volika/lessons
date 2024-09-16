@@ -1,0 +1,26 @@
+@import url("reset.css");
+
+h1 {
+   color: red;
+}
+.unit-list {
+   color: orange;
+}
+.about-ukraine {
+   color: brown;
+}
+.unit-title {
+   color: blue;
+}
+.unit-text {
+   color: darkgreen;
+}
+.unit-text span{
+   color: darkred;
+}
+.special {
+   color: darkblue;
+}
+.where {
+   color: fuchsia;
+}
