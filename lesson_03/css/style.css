@@ -10,13 +10,19 @@ h1 {
    color: brown;
 }
 .unit-title {
-   color: blue;
+   color: blueviolet;
 }
 .unit-text {
    color: darkgreen;
 }
 .unit-text span{
    color: darkred;
+}
+.unit-text-winter {
+   color: blue;
+}
+.unit-text-summer {
+   color: orange;
 }
 .special {
    color: darkblue;
