@@ -46,7 +46,7 @@ h3 {
 
 .bounding-container {
    max-width: 1024px; 
-/*    min-width: none; */
+   /* min-width: none; */
    /* 1172px; + 15px padding */
    margin-inline: auto;
    margin-bottom: 20px;
