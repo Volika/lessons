@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700,800,900&display=swap");
+
+
+@import url("fonts.css");
+@import url("fonts_kyivtype.css");
+
+@import url("reset.css");
+
+body {
+   font-family: "Gilroy", sans-serif;
+   font-size: 18px;
+   color: #000000;
+   background-color:#ffffff;
+}
+.wrapper {
+   min-width: 100%;
+   overflow: hidden;
+}
+.header-container {
+   background-image: url("../img/fon_1000.webp");
+}
+
+.bounding-container {
+   max-width: 1140px; 
+   margin-inline: auto;
+   padding-inline: 15px;
+}
+.footer .bounding-container {
+   background-color: #f2eeee;
+   min-width: 100%;
+}
+h1 {
+   font-size: 32px;
+   font-weight: 600;
+   padding: 10px;
+}
+h2 {
+   font-size: 24px;
+   font-weight: 600;
+   padding: 10px;
+}
+.section-01 {
+   background-color: #cec8c8;
+   font-size: 20px;
+   line-height: 1.2;
+   margin-bottom: 20px;
+
+}
+.main-page {
+/* min-width: 1282px; */
+padding: 10px;
+}
+.section-01,
+.section-02,
+.section-03 {
+   /* display: none; */
+}
+
+.block-items,
+.block-link-content,
+.block-hiden {
+   margin-bottom: 15px;
+}
+.link {
+   color: #128f3e;
+   letter-spacing: 1px;
+}
+.block-items div:not(:last-child) {
+   margin-bottom: 10px;
+}
+.link span {
+   background: url("../img/check.png") left / 15px  no-repeat;
+   display: inline-block;
+   padding-left: 25px;
+}
+
+.link:hover {
+   color: #f60909;
+   text-decoration: underline;
+   font-weight: 700;
+}
+.link:active {
+   color: blue;
+}
+.link:visited {
+   /* color: blueviolet; */
+}
+.link:hover span {
+   background: url("../img/d_icon.png") right / 15px  no-repeat;
+   padding-right: 25px;
+}
+.link:focus-visible {
+   outline: 2px  #f60909;
+}
+.block:target {
+   background-color: #128f3e;
+}
+.block__item span {
+   font-weight: 600;
+}
+.block-hiden {
+   border: 1px solid #f60909;
+   border-radius: 12px;
+}
+.show-block:hover {
+   text-decoration: underline;
+}
+.some-block {
+   display: none;
+}
+.some-block:target {
+   display: block;
+   background-color: #d8ea64;
+   padding-inline: 10px;
+   border-radius: 12px;
+}
+.psevdo-2 {
+   border: #f60909;
+}
+.text-01 *:first-child {
+   color: blueviolet;
+}
+.text-01 p {
+   margin-bottom: 10px;
+}
+.text-01 *:last-child {
+   margin-bottom: 0;
+}
+.text-02 {
+   line-height: 1.5;
+   display: inline-block;
+}
+.text-02 p:first-of-type {
+   color: blueviolet;
+}
+/* ----------- */
+.section-02 {
+   font-family: "DM Sans";
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+
+.bp-container {
+   max-width: 890px; 
+   margin-inline: auto;
+   /* padding-inline: 15px; */
+   padding-block: 106px;
+}
+.bp-items {}
+
+.bp-item {
+   min-height: 218px;
+   padding-inline-start: 260px;
+   padding-block: 21px;   
+}
+.bp-item:not(:last-child) {
+   margin-bottom: 54px;   
+}
+.bp-item-content {
+
+}
+.bp-item-time {
+   color: #4A3AFF;
+font-weight: 700;
+line-height: 1.1; /* 110% */
+margin-bottom: 8px;
+}
+.bp-item-title {
+   color: #1E1B39;
+   font-size: 42px;
+font-weight: 700;
+line-height: 1.28571; /* 128.571% */
+   margin-bottom: 8px;
+}
+.num-01 {
+   background: url("../img/number-01.png") 0 0 / 210px no-repeat;
+}
+.num-01 .bp-item-title::after {
+   content: url("../img/01.png");
+}
+.num-02 {
+   background: url("../img/number-02.png") 0 0 / 210px no-repeat;
+}
+.num-02 .bp-item-title::after {
+   content: url("../img/02.png");
+}
+.num-03 {
+   background: url("../img/number-03.png") 0 0 / 210px no-repeat;
+}
+.num-03 .bp-item-title::after {
+   content: url("../img/03.png");
+}
+.bp-item-text {
+   color: #6E6C83;
+   font-size: 24px;
+line-height: 1.75; /* 175% */
+}
+.section-03 {
+   font-family: "DM Sans";
+   font-size: 28px;
+   background-color: #ffffff;
+   margin-bottom: 50px;
+}
+
+.bp-container-03 {
+   max-width: 543px;
+   height: 617px;
+   margin-inline: auto;
+   border-radius: 56px;
+   background-color: #F0F0F6;
+   padding: 24px;
+}
+.bp-container-price {
+   color: #ffffff;
+   width: 495px;
+height: 271px;
+border-radius: 34px;
+   background-color: #4A3AFF;
+   text-align: center;
+   padding-block: 44px 73px;
+   margin-bottom: 34px;
+}
+.price-name {
+   font-size: 30px;
+font-weight: 700;
+line-height: 1.06667; /* 106.667% */
+margin-bottom: 2px;
+}
+.price-sum {
+   font-size: 116px;
+font-weight: 700;
+line-height: 1.03448; /* 103.448% */
+margin-bottom: 6px;
+}
+.price-time {
+   font-size: 20px;
+font-weight: 700;
+line-height: 1.1; /* 110% */
+}
+.price-details-items {
+   font-size: 28px;
+font-weight: 700;
+line-height: 1.35714; /* 135.714% */
+color: #1E1B39;
+}
+.price-details-item:not(:last-child) {
+margin-bottom: 26px;
+}
+.price-details-item {
+   background: url("../img/check01.png") 0 0 / 36px no-repeat;
+   padding-left: 50px;
+}
+.price-details-item:hover {
+   background: url("../img/check.png") 0 0 / 36px no-repeat;
+}
+.section-04 {
+   font-family: "Epilogue";
+   font-size: 16px;
+   background-color: #FDF0E9;
+   /* margin-bottom: 50px; */
+}
+.bp-container-04 {
+   color: #391400;
+   max-width: 970px;
+   margin-inline: auto;
+   border-radius: 56px;
+   padding: 24px;
+}
+.bp-image {
+   margin-bottom: 74px;
+}
+.bp-text-container {
+   max-width: 570px;
+   margin-inline: auto;
+}
+.bp-text-01 {
+   /* color: #391400; */
+   font-size: 20px;
+   line-height: 1.6; /* 160% */
+   margin-bottom: 32px;
+}
+.bp-text-02,
+.bp-text-04,
+.bp-text-06,
+.bp-text-08,
+.bp-text-10,
+.bp-text-12 {
+   color: rgba(57, 20, 0, 0.64);
+   line-height: 2;
+}
+.bp-text-02 {
+   margin-bottom: 51px;
+}
+.bp-text-03,
+.bp-text-07 {
+   font-size: 24px;
+font-weight: 700;
+line-height: 2;
+   margin-bottom: 35px;
+}
+.bp-text-04{
+   margin-bottom: 34px;
+}
+.bp-text-05,
+.bp-text-09 {
+   line-height: 2;
+   /* color: #391400; */
+   margin-bottom: 32px;
+}
+.bp-text-05-item {
+   background:  url("../img/oval.svg") 0 50% / 8px no-repeat;
+   padding-inline-start: 24px;
+}
+.bp-text-06 {
+   margin-bottom: 65px;
+}
+.bp-text-08 {
+   margin-bottom: 28px;
+}
+.bp-text-10 {
+   margin-bottom: 69px;
+}
+.bp-text-11 {
+   /* color: #391400; */
+   font-size: 20px;
+   line-height: 2;
+   padding: 42px 32px 32px 112px;
+   background:  url("../img/shape.svg") 40px 32px / 48px no-repeat,
+   #F9E5DA;
+   border-radius: 6px;
+   margin-bottom: 76px;
+}
+.bp-text-12 {
+   margin-bottom: 58px;
+}

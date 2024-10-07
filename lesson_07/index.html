@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>07-Псевдокласи та псевдоелементи</title>
+
+</head>
+<body>
+   <!-- <p>07-Псевдокласи та псевдоелементи</p> -->
+   <div class="wrapper">
+      <header class="header">
+         <div class="header-container">
+            <h1>07 - Псевдокласи_та_псевдоелементи</h1>
+         </div>
+      </header>
+      <main class="main-page">
+         <div class="section-01">
+            <div class="bounding-container">
+               <div class="psevdo-1">
+                  <div class="block-link">
+                     <div class="block-items">
+                        <div class="block-item">
+                           <a target="_blank" href="https://google.com" class="link"><span>Я посилання 1</span></a>
+                        </div>
+                        <div class="block-item">
+                           <a target="_blank" href="https://google.eu" class="link"><span>Я посилання 2</span></a>
+                        </div>
+                        <div class="block-item">
+                           <a href="#block-1" class="link"><span>це посилання 3 #block-1</span></a>
+                        </div>
+                        <div class="block-item">
+                           <a href="#block-2" class="link"><span>це посилання 4 #block-2</span></a>
+                        </div>
+                     </div>
+   
+                  </div>
+                  <div class="block-link-content">
+                     <div id="block-1" class="block">
+                        <div class="block__item">
+                           <span>#block-1</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore dolorum rerum quas adipisci, iusto minus sequi vero iure, ipsum perspiciatis vitae saepe numquam pariatur expedita id ratione. Voluptatem, nihil!
+                        </div>
+                     </div>
+                     <div id="block-2" class="block">
+                        <div class="block__item">
+                           <span>#block-2</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores, eius laborum numquam, vitae placeat modi blanditiis tempora perspiciatis repellendus deleniti accusantium, assumenda animi quae ex at explicabo fugit. Velit.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="block-hiden">
+                        <a href="#hidden-block" class="show-block"><h2>показати блок</h2></a>
+                     <div id="hidden-block" class="some-block">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit asperiores explicabo cumque distinctio, architecto fugiat ad, nemo dolore laboriosam illum nobis quia? Sequi, totam accusamus sunt in obcaecati consectetur perspiciatis.
+                     </div>
+                  </div>
+               </div>
+               <div class="psevdo-2">
+                  <h2>.text *:first-child </h2>
+                  <div class="text-01">
+                     <p>
+                        1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero aut animi distinctio molestias saepe, culpa similique magni hic vel explicabo praesentium quae, atque maxime id nihil modi? Nobis, recusandae?
+                     </p>
+                     <p>
+                        2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero aut animi distinctio molestias saepe, culpa similique magni hic vel explicabo praesentium quae, atque maxime id nihil modi? Nobis, recusandae?
+                     </p>
+                     <p>
+                        3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero aut animi distinctio molestias saepe, culpa similique magni hic vel explicabo praesentium quae, atque maxime id nihil modi? Nobis, recusandae?
+                     </p>
+                     <p>
+                        4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero aut animi distinctio molestias saepe, culpa similique magni hic vel explicabo praesentium quae, atque maxime id nihil modi? Nobis, recusandae?
+                     </p>
+
+                  </div>
+                  <h2>.text p:first-of-type </h2>
+                  <div class="text-02">
+                     <span>span Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span>
+                     <p>p Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                     <p>p Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                     <p>p Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                  </div>
+               </div>
+
+            </div>   
+         </div>
+         <div class="section-02">
+            <h2>BusinessPresentation</h2>
+            <div class="bp-container">
+               <div class="bp-items">
+                  <div class="bp-item num-01">
+                     <div class="bp-item-content">
+                        <p class="bp-item-time">Jan 2023</p>
+                        <p class="bp-item-title">Research & discovery </p>
+                        <p class="bp-item-text">
+                           Et arcu aliquam viverra felis rhoncus vitae arcu eget urna viverra massa nullaolmerolil fermentum congue ultrices.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="bp-item num-02">
+                     <div class="bp-item-content">
+                        <p class="bp-item-time">Feb 2023</p>
+                        <p class="bp-item-title">Product development </p>
+                        <p class="bp-item-text">
+                           Libero sed nibh dictumst viverra tincidunt nulla risusolm neque lorem sed elementum adipiscing purus massa.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="bp-item num-03">
+                     <div class="bp-item-content">
+                        <p class="bp-item-time">Apr 2023</p>
+                        <p class="bp-item-title">Product launch </p>
+                        <p class="bp-item-text">
+                           In diam aenean nunc amet faucibus commodo mattisole tincidunt euismod quis gravida tellus eros venenatis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section-03">
+            <h2>Our pricing plans</h2>
+            <div class="bp-container-03">
+               <div class="bp-container-price">
+                  <p class="price-name">Basic</p>
+                  <p class="price-sum">$99</p>
+                  <p class="price-time">Billed monthly</p>
+               </div>
+               <div class="price-details">
+                  <ul class="price-details-items">
+                     <li class="price-details-item">All analytics features</li>
+                     <li class="price-details-item">Up to 250,000 tracked visits</li>
+                     <li class="price-details-item">Normal support</li>
+                     <li class="price-details-item">Up to 3 team members</li>
+                  </ul>
+               </div>
+
+            </div>
+         </div>
+         <div class="section-04">
+            <h2>Our pricing plans</h2>
+            <div class="bp-container-04">
+               <img class="bp-image" src="img/bitmap.webp" alt="На фото дівчина з юнаком сидять за столом з ноутбуками та щось весело обговорюють">
+               <div class="bp-text-container">
+                  <div class="bp-text-01">
+                     Agency provides a full service range including technical skills, design, business understanding.
+                  </div>
+                  <div class="bp-text-02">
+                     Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                  </div>
+                  <div class="bp-text-03">
+                     Promote your product
+                  </div>
+                  <div class="bp-text-04">
+                     Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
+                  </div>
+                  <div class="bp-text-05">
+                     <ul class="bp-text-05-items">
+                        <li class="bp-text-05-item">Digital marketing</li>
+                        <li class="bp-text-05-item">Efforts instead</li>
+                        <li class="bp-text-05-item">Handling in-house</li>
+                     </ul>
+                  </div>
+                  <div class="bp-text-06">
+                     A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                  </div>
+                  <div class="bp-text-07">Service online and help</div>
+                  <div class="bp-text-08">
+                     Put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
+                  </div>
+                  <div class="bp-text-09">
+                     <ol class="bp-text-09-items">
+                        <li class="bp-text-09-item">1. Marketing efforts</li>
+                        <li class="bp-text-09-item">2. Instead of handling</li>
+                        <li class="bp-text-09-item">3. In-house</li>
+                     </ol>
+                  </div>
+                  <div class="bp-text-10">
+                     Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                  </div>
+                  <div class="bp-text-11">
+                     Provide your business with a variety of digital solutions to promote your product or service online and help you.
+                  </div>
+                  <div class="bp-text-12">
+                     Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="bounding-container">
+            <h2>Footer</h2>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>
