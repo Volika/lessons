@@ -269,6 +269,7 @@ margin-bottom: 26px;
    padding: 24px;
 }
 .bp-image {
+   border-radius: 8px;
    margin-bottom: 74px;
 }
 .bp-text-container {
