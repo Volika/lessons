@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+
+@import url("fonts.css");
+@import url("fonts_kyivtype.css");
+
+@import url("reset.css");
+
+body {
+   font-family: "Gilroy", serif;
+   font-size: 16px;
+   color: #000000;
+   background-color: #e3d7d1;
+}
+.wrapper {
+   min-width: 100%;
+   overflow: hidden; 
+   /* clip */
+   /* ... */
+}
+
+.bounding-container {
+   max-width: 1200px; 
+   /* 1172px; + 2 * 15px padding */
+   margin: 0 auto;
+   padding-inline: 15px;
+   background-color: #ccb6ab;
+}
+.block {
+   /* display:inline-block; */
+   padding:15px;
+   /* vertical-align: middle; */
+}
+
+.block__img {
+   max-width: 750px; 
+}
+.block__item {
+   display: inline-block;
+}
+.block p {
+   font-size: 20px;
+}
+.item-text {
+   display: inline-block;
+   padding: 15px;
+   vertical-align: middle;
+}
+.block__img:hover {
+ box-shadow: 2px 2px 4px #4717cc;
+}
+.block__icon:hover {
+   border-radius: 50%;}
+.block__item:hover {
+   color: #4717cc;  
+   font-weight: bold ;
+}
+.main-page {
+/* min-width: 1282px; */
+}
