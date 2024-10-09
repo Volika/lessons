@@ -20,6 +20,11 @@ body {
    /* ... */
 }
 
+h1 {
+   font-size: 32px;
+   font-weight: 600;
+   padding: 10px;
+}
 .bounding-container {
    max-width: 1200px; 
    /* 1172px; + 2 * 15px padding */
@@ -49,6 +54,7 @@ body {
 }
 .block__img:hover {
  box-shadow: 2px 2px 4px #4717cc;
+ transform: scale(1.015);
 }
 .block__icon:hover {
    border-radius: 50%;}
