@@ -38,6 +38,173 @@ body {
    padding: 15px;
    vertical-align: middle;
 }
+.wrapper {
+}
+.header {
+}
+.header--margin {
+}
 .main-page {
-/* min-width: 1282px; */
+}
+.main-page--margin {
+}
+.bounding-container {
+}
+.section-header {
+}
+.section-header--margin {
+}
+.section-header__container {
+}
+.section-header__items {
+}
+.section-header__item {
+}
+.about-section {
+}
+.about-section--margin {
+}
+.about-section__container {
+}
+.about-section__items {
+}
+.about-section__image {
+}
+.block-content {
+}
+.about-section__block {
+}
+.block-content__label {
+}
+.block-content__title {
+}
+.block-content__subtitle {
+}
+.block-content__text {
+}
+.about-section__button {
+}
+.button {
+}
+.button__text {
+}
+.result-section {
+}
+.result-section--margin {
+}
+.result-section__container {
+}
+.result-section__items {
+}
+.result-section__item {
+}
+.result-section__title {
+}
+.result-section__content {
+}
+.how-we-work-section {
+}
+.how-we-work-section--margin {
+}
+.how-we-work-section__container {
+}
+.how-we-work-section__items {
+}
+.how-we-work-section__block {
+}
+.block-content__more {
+}
+.block-content__link {
+}
+.list-content {
+}
+.how-we-work-section__list {
+}
+.list-content__items {
+}
+.list-content__item {
+}
+.video-reel-section {
+}
+.video-reel-section--margin {
+}
+.video-reel-section__container {
+}
+.video-reel-section__items {
+}
+.video-reel-section__image {
+}
+.video-reel-section__block {
+}
+.features-section {
+}
+.features-section--margin {
+}
+.features-section__container {
+}
+.features-section__items {
+}
+.features-section__block {
+}
+.block-content__list {
+}
+.features-section__image {
+}
+.about-features-section {
+}
+.about-features-section--margin {
+}
+.about-features-section__container {
+}
+.about-features-section__items {
+}
+.about-features-section__block {
+}
+.about-features-section__cards {
+}
+.card-content {
+}
+.about-features-section__card {
+}
+.about-features-section__card--bgc {
+}
+.card-content__icon {
+}
+.card-content__title {
+}
+.card-content__text {
+}
+.service-section {
+}
+.service-section--margin {
+}
+.service-section__container {
+}
+.service-section__items {
+}
+.service-section__image {
+}
+.service-section__block {
+}
+.service-section__button {
+}
+.service-help-section {
+}
+.service-help-section--margin {
+}
+.service-help-section__container {
+}
+.service-help-section__items {
+}
+.service-help-section__block {
+}
+.service-help-section__cards {
+}
+.service-help-section__card {
+}
+.card-content__more {
+}
+.card-content__link {
+}
+.footer {
 }
