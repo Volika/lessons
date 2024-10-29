@@ -204,7 +204,6 @@ body {
 }
 .fixed-section__block .examples-block__item--2:hover {
    box-shadow: 3px 3px 30px 0 #000000;
-   font-size: 700px;
    color: #FDF0E9;
    background-color: #7993db;
 
