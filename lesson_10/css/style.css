@@ -383,7 +383,7 @@ margin-block-end: 64px;
 }
 
 .img-portfolio__items {
-   margin-inline: 0 -15px;
+   /* margin-inline: 0 -0; */
    font-size: 0;
    border: 1px solid #3A3C56;
 	overflow: hidden;
