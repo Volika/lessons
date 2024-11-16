@@ -79,6 +79,12 @@ body {
    font-weight: 700;
    line-height: 1.33333; /* 133.333% */
 }
+.header__logo span:hover {
+   /* color: #EF6D58; */
+   transition: color 0.3s;
+   text-shadow: 2px 2px 5px #EF6D58;
+}
+
 .header__menu {
    flex-basis: 515px;
 }
@@ -129,6 +135,9 @@ body {
 @media (any-hover: hover) {
    .menu__link:hover {
       color: #EF6D58;
+      /* font-weight: 500; */
+      transition: font-weight 0.3s;
+      /* text-shadow: 1px 1px 5px #ffffff; */
    }
    .menu__link:hover::after {
       width: 100%;
