@@ -42,14 +42,6 @@
    min-width: 138px;
    color: #ffffff;
 }
-.main-button--header:hover {
-   color: #EF6D58;
-   /* background: #ffffff; */
-   /* border: 0.2px solid #EF6D58; */
-   /* box-shadow: 1px 2px 5px #a01e38; */
-
-   transition: all 0.3s;
-}
    
 .main-button--secondary {
    background-color: #ef6d58;
