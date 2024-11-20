@@ -340,7 +340,7 @@ body {
       z-index: 2;
       transition: inset-inline-start 0.3s;
       overflow: auto;
-      padding: 100px 15px 30px;
+      padding: 80px 15px 30px;
    }
    .menu__body::before {
       content: "";
@@ -358,7 +358,7 @@ body {
       flex-direction: column;
       border: none;
       /* background-color: transparent; */
-      background-color: rgba(40, 41, 62, 0.7);
+      background-color: rgba(40, 41, 62, 0.8);
       align-items: flex-end;
       row-gap: 25px;
    }
@@ -410,9 +410,16 @@ body {
       flex-basis: auto;
       width: 130px;
    }
+   .block-content {
+      max-width: 380px;
+   }
+   .block-content__icon {
+      display: none;
+   }
    .block-content__title {
       font-size: 56px;
       font-weight: 700;
+      letter-spacing: -1px;
    }
    
 }
