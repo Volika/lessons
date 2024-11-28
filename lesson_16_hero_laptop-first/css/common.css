@@ -7,7 +7,7 @@
 }
 .section-heading__label {
    color: #ef6d58;
-   line-height: 2; /* 200% */
+   line-height: 2; 
    letter-spacing: 3px;
    text-transform: uppercase;
    margin-bottom: 20px;
@@ -15,7 +15,7 @@
 .section-heading__title {
    font-size: 56px;
    font-weight: 800;
-   line-height: 1.14; /* 114.286% */
+   line-height: 1.14; 
    letter-spacing: -1px;
 }
 .section-heading__title:not(:last-child) {
@@ -39,7 +39,6 @@
 
 .main-button--header {
    transition: all 0.3s;
-   min-width: 138px;
    color: #ffffff;
 }
    
@@ -75,10 +74,8 @@
 }
 .btn__link {
    text-align: center;
-
    border-radius: 6px;
    border: 1px solid #ffffff4d;
-
    padding: 18px 30px;
    font-size: 14px;
    font-weight: 900;
@@ -102,9 +99,31 @@
    top: 22px;
    left: 278px;
    z-index: -1;
-
-   animation: rotate-element 5s linear infinite;
 }
+.block-content__icon--rotate {
+   animation: rotate-element 30s linear infinite;
+}
+@keyframes rotate-element {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+@keyframes color-element {
+   0% {
+      color: #ef6d58;
+   }
+   50%{
+      color: #c17b74;
+   }
+   100% {
+      color: #6A6C8E;
+   }
+}
+
 .block-content__label {
    color: #EF6D58;
    font-size: 16px;
@@ -142,9 +161,7 @@
    display: inline-block;
    position: relative;
    width: fit-content;
-   height: 48px;
    border-radius: 6px;
-   /* background: #EF6D58; */
    border: 1px solid #ffffff4d;
    color: #FFF;
    padding: 15px 32px;
@@ -169,7 +186,6 @@
    transition: 
       background-color 0.3s,
       color 0.3s;
-
 }
 .block-content__link::after {
 	content: "";
@@ -193,7 +209,6 @@
    .block-content__link:hover {
       color: #EF6D58;
       transition: font-weight 0.3s;
-      /* text-shadow: 1px 1px 5px #ffffff; */
    }
    .block-content__link:hover::after {
       width: 100%;
@@ -206,7 +221,6 @@
    display: flex;
    column-gap: 46px;
    align-items: center;
-
 }
 .more-block {
    display: flex;
@@ -216,17 +230,12 @@
 }
 .more-block__content {
    position: relative;
-
 }
 .more-block__text {
    color: rgba(255, 255, 255, 0.64);
    line-height: 2;
-
-   
 }
 .more-block__text--hero {
-
-
 }
 .more-block__info {
    position: relative;
@@ -236,7 +245,6 @@
    color: #ffffff;
 }
 .more-block__info--hero {
-
 }
 
 /* ---------------- */
