@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>17-GRID</title>
+
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <!-- <h1 class="header__menu">17 - Модуль GRID</h1>  ---->
+         <div class="header__container">
+            <!-- <img class="header__logo" src="img/logo.svg" alt="Image"> -->
+            <div class="header__logo">
+               <a href="#" class="header__logotype">
+                  <img src="img/logo-0.svg" alt="Logotype">
+                  <span>Agency</span>
+               </a>
+            </div>
+            <div class="header__menu menu">
+               <div class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a href="#" class="menu__link">About</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#" class="menu__link">Services</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#" class="menu__link">Pricing</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#" class="menu__link">Blog</a>
+                     </li>
+                     <li class="menu__item menu__item--none">
+                        <a href="#" class="menu__link">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="header__actions actions-header">
+               <a href="#" class="actions-header__item main-button">
+                  <span>Contact</span>
+               </a>
+      
+               <!-- кнопка бургер-меню -->
+               <button class="actions-header__icon icon-menu" type="button"><span></span></button>
+            </div>
+
+         </div>
+
+      </header>
+      <main class="main">        
+         <div class="section-hero hero">
+            <div class="hero__container">
+               <div class="hero__body">
+                  <div class="hero__item item-page">
+                     <div class="item-page__block block-content">
+                        <img src="img/icon/hero-star.png" alt="hero-picture" class="block-content__icon block-content__icon--rotate">
+                        <div class="block-content__label">
+                           <h2>Modern Studio</h2>
+                        </div>
+                        <div class="block-content__title">
+                           <h3>We’re Help <br> To Build Your Dream Project</h3>
+                        </div>                   
+                        <div class="block-content__text">
+                           <p>
+                              Agency provides a full service range including technical skills, design, business understanding.
+                           </p>
+                        </div>
+                        <div class="block-content__actions block-content__actions--flex">
+                           <a href="#" class="block-content__button block-content__button--secondary">
+                              <span>How We Work</span>
+                           </a>
+                           <a href="#" class="block-content__link">Contact Us</a>
+                        </div>
+            
+                        <div class="block-content__more block-content__more--flex more-block">
+                           <div class="more-block__picture">
+                              <img src="img/hero/hero-img_2x.png" alt="hero-picture" class="more-block__img">
+                           </div>
+                           <div class="more-block__content">
+                              <div class="more-block__text">"Put themselves in the merchant's shoes"</div>
+                              <div class="more-block__info">Meta Inc.</div>
+                           </div>
+                        </div>                      
+                     </div>      
+                  </div>
+                  <div class="hero__item item-page">
+                     <img src="img/hero/hero-picture_2x.png" alt="" class="item-page__image">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- brands -->
+         <div class="brands">
+            <div class="brands__container">
+               <div class="brands__body">
+                  <div class="brands__item">
+                     <img src="img/brands/brand-digital_1x.png" alt="" class="brands__image">
+                  </div>
+                  <div class="brands__item">
+                     <img src="img/brands/brand-vortex_1x.png" alt="" class="brands__image">
+                  </div>
+                  <div class="brands__item">
+                     <img src="img/brands/brand-travel_1x.png" alt="" class="brands__image">
+                  </div>
+                  <div class="brands__item">
+                     <img src="img/brands/brand-fusion_1x.png" alt="" class="brands__image">
+                  </div>
+                  <div class="brands__item">
+                     <img src="img/brands/brand-media_1x.png" alt="" class="brands__image">
+                  </div>
+
+               </div>
+            </div>
+         </div>
+         <!-- portfolio -->
+         <div class="portfolio">
+            <div class="portfolio__container">
+               <!-- <div class="portfolio__body"></div> -->
+                  <div class="portfolio__heading block-content">
+                     <div class="block-content__label">Portfolio</div>
+                     <div class="block-content__title">Latest Work</div>
+                  </div>
+
+                  <div class="portfolio__menu menu-portfolio">
+                        <ul class="menu-portfolio__items menu-portfolio__items--flex">
+                           <li class="menu-portfolio__item menu-portfolio__item--activ">
+                              <a href="#"><span>Show All <sup>14</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item">
+                              <a href="#"><span>Design <sup>6</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item">
+                              <a href="#"><span>Branding <sup>4</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item">
+                              <a href="#"><span>Illustration <sup>3</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item">
+                              <a href="#"><span>Motion <sup>1</sup></span></a>
+                           </li>
+                        </ul>
+                  </div>
+
+                  <div class="portfolio__select">
+                     <select name="form[select]" class="portfolio__item-select">
+                        <option value="Show All" selected>Show All</option>
+                        <option value="Design">Design</option>
+                        <option value="Branding">Branding</option>
+                        <option value="Illustration">Illustration</option>
+                        <option value="Motion">Motion</option>
+                     </select>
+
+                  </div>
+
+                  <div class="portfolio__cards img-portfolio img-portfolio--flex"> 
+                     
+                        <div class="img-portfolio__item img-portfolio__item--flex">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-sofa_1x.webp" alt="sofa">
+                           </div>
+                           <div class="img-portfolio__text">
+                              <div class="img-portfolio__label">
+                                 <a  href="#portfolio">Design</a>
+                              </div>
+                              <div>
+                                 <a class="img-portfolio__title" href="#portfolio">SOFA</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="img-portfolio__item img-portfolio__item--flex">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-keyboard_1x.webp" alt="keyboard">
+                           </div>
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Branding</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">KeyBoard</a>
+                                 </div>
+                              </div>                                    
+                        </div>
+                        <div class="img-portfolio__item img-portfolio__item--flex">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-media_1x.webp" alt="workmedia">
+                           </div>
+
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Illustration</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">Work Media</a>
+                                 </div>
+                              </div>
+                              
+                        </div>
+
+                        <div class="img-portfolio__item img-portfolio__item--flex">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-dddone_1x.webp" alt="motion">
+                           </div>
+
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Motion</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">DDDone</a>
+                                 </div>
+                              </div>
+                              
+                        </div>
+                  </div>
+
+                     <!-- portfolio-section__btn block-content -->                                         
+                     <div class="portfolio__button block-content">
+                        <a class="block-content__button" href="#">Explore More</a>
+                     </div>                                          
+
+               
+
+            </div>
+         </div>
+         <!-- G R I D -->
+         <!-- grid-portfolio -->
+         <div class="portfolio portfolio--grid">
+            <div class="portfolio__container">
+               <!-- <div class="portfolio__body"></div> -->
+                  <div class="portfolio__heading block-content">
+                     <div class="block-content__label">Portfolio</div>
+                     <div class="block-content__title">Latest Work</div>
+                  </div>
+
+                  <div class="portfolio__menu menu-portfolio">
+                        <ul class="menu-portfolio__items menu-portfolio__items--grid">
+                           <li class="menu-portfolio__item menu-portfolio__item--grid menu-portfolio__item--activ">
+                              <a href="#"><span>Show All <sup>14</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Design <sup>6</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Branding <sup>4</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Illustration <sup>3</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Motion <sup>1</sup></span></a>
+                           </li>
+                        </ul>
+                  </div>
+
+                  <div class="portfolio__select">
+                     <select name="form[select]" class="portfolio__item-select">
+                        <option value="Show All" selected>Show All</option>
+                        <option value="Design">Design</option>
+                        <option value="Branding">Branding</option>
+                        <option value="Illustration">Illustration</option>
+                        <option value="Motion">Motion</option>
+                     </select>
+                  </div>
+
+                  <div class="portfolio__cards img-portfolio img-portfolio--grid">
+                     <!-- <div class="img-portfolio__items"></div> -->
+                                 
+                        <div class="img-portfolio__item img-portfolio__item--grid">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-sofa_1x.webp" alt="sofa">
+                           </div>
+                           <div class="img-portfolio__text">
+                              <div class="img-portfolio__label">
+                                 <a  href="#portfolio">Design</a>
+                              </div>
+                              <div>
+                                 <a class="img-portfolio__title" href="#portfolio">SOFA</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="img-portfolio__item img-portfolio__item--grid">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-keyboard_1x.webp" alt="keyboard">
+                           </div>
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Branding</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">KeyBoard</a>
+                                 </div>
+                              </div>                                    
+                        </div>
+                        <div class="img-portfolio__item img-portfolio__item--grid">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-media_1x.webp" alt="workmedia">
+                           </div>
+
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Illustration</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">Work Media</a>
+                                 </div>
+                              </div>
+                              
+                        </div>
+
+                        <div class="img-portfolio__item img-portfolio__item--grid">
+                           <div class="img-portfolio__picture">
+                              <img class="img-portfolio__image" src="img/portfolio/p-dddone_1x.webp" alt="motion">
+                           </div>
+
+                              <div class="img-portfolio__text">
+                                 <div class="img-portfolio__label">
+                                    <a  href="#portfolio">Motion</a>
+                                 </div>
+                                 <div>
+                                    <a class="img-portfolio__title" href="#portfolio">DDDone</a>
+                                 </div>
+                              </div>
+                              
+                        </div>
+
+                     
+
+                  </div>
+
+                     <!-- portfolio-section__btn block-content -->
+                     <div class="portfolio__button block-content">
+                        <a class="block-content__button" href="#">Explore More</a>
+                     </div>                                          
+            </div>
+         </div>
+
+         <div class="portfolio portfolio--page">
+            <div class="portfolio__container portfolio__container--page">
+
+                  <div class="portfolio__menu menu-portfolio menu-portfolio--color ">
+                        <ul class="menu-portfolio__items menu-portfolio__items--grid">
+                           <li class="menu-portfolio__item menu-portfolio__item--grid menu-portfolio__item--grey">
+                              <a href="#"><span>Show All <sup>14</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Design <sup>6</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Branding <sup>4</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Illustration <sup>3</sup></span></a>
+                           </li>
+                           <li class="menu-portfolio__item menu-portfolio__item--grid">
+                              <a href="#"><span>Motion <sup>1</sup></span></a>
+                           </li>
+                        </ul>
+                  </div>
+
+                  <div class="portfolio__select">
+                     <select name="form[select]" class="portfolio__item-select">
+                        <option value="Show All" selected>Show All</option>
+                        <option value="Design">Design</option>
+                        <option value="Branding">Branding</option>
+                        <option value="Illustration">Illustration</option>
+                        <option value="Motion">Motion</option>
+                     </select>
+                  </div>
+
+                  <div class="portfolio__cards img-portfolio img-portfolio--page">
+
+                     <div class="img-portfolio__item img-portfolio__item--page">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/page-portfolio/pp-keyboard_1x.png" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__text">
+                           <div class="img-portfolio__label">
+                              <a  href="#portfolio">Branding</a>
+                           </div>
+                           <div>
+                              <a class="img-portfolio__title" href="#portfolio">KeyBoard</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-portfolio__item img-portfolio__item--page">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/page-portfolio/pp-sofa_1x.png" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__text">
+                           <div class="img-portfolio__label">
+                              <a  href="#portfolio">Design</a>
+                           </div>
+                           <div>
+                              <a class="img-portfolio__title" href="#portfolio">SOFA</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-portfolio__item img-portfolio__item--page">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/page-portfolio/pp-workmedia_1x.png" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__text">
+                           <div class="img-portfolio__label">
+                              <a  href="#portfolio">Illustration</a>
+                           </div>
+                           <div>
+                              <a class="img-portfolio__title" href="#portfolio">Work Media</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-portfolio__item img-portfolio__item--page">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/page-portfolio/pp-dddone_1x.png" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__text">
+                           <div class="img-portfolio__label">
+                              <a  href="#portfolio">Motion</a>
+                           </div>
+                           <div>
+                              <a class="img-portfolio__title" href="#portfolio">DDDone</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="img-portfolio__item img-portfolio__item--page">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/page-portfolio/pp-handp_1x.png" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__text">
+                           <div class="img-portfolio__label">
+                              <a  href="#portfolio">Branding</a>
+                           </div>
+                           <div>
+                              <a class="img-portfolio__title" href="#portfolio">HandP</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio__buttons block-content">
+
+                     <a href="#" class="block-content__button block-content__button--portfolio block-content__button--activ">
+                        <span>1</span>
+                     </a>
+                     <a href="#" class="block-content__button block-content__button--portfolio">
+                        <span>2</span>
+                     </a>
+                     <a href="#" class="block-content__button block-content__button--portfolio">
+                        <span>3</span>
+                     </a>
+                     <a href="#" class="block-content__button block-content__button--portfolio">
+                        <span>4</span>
+                     </a>
+                     <a href="#" class="block-content__button block-content__button--portfolio">
+                        <span>5</span>
+                     </a>
+
+                  </div>
+
+
+            </div>
+         </div>
+      </main>
+      <footer class="footer"> 
+         <div class="bounding-container">
+            <h2>Footer 17 - Модуль GRID</h2>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
