@@ -1,0 +1,78 @@
+/* тут загальні компоненти, бем блоки, заголовки, кнопки */
+
+/*==============================================================================================================*/
+
+/* верхня частина секції з заголовком */
+.section-heading {
+}
+.section-heading__label {
+   color: #ef6d58;
+   line-height: 2; /* 200% */
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+.section-heading__title {
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 1.14; /* 114.286% */
+   letter-spacing: -1px;
+}
+.section-heading__title:not(:last-child) {
+   margin-bottom: 36px;
+}
+/*==============================================================================================================*/
+
+/* кнопка */
+.main-button {
+   position: relative;
+   width: fit-content;
+   display: block;
+   padding: 18px 30px 16px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   border-radius: 6px;
+   font-weight: 900;
+   line-height: 1;
+   text-transform: uppercase;
+   overflow: hidden;
+   }
+
+.main-button--header {
+   transition: all 0.3s;
+   min-width: 138px;
+   color: #ffffff;
+}
+.main-button--header:hover {
+   color: #EF6D58;
+   /* background: #ffffff; */
+   /* border: 0.2px solid #EF6D58; */
+   /* box-shadow: 1px 2px 5px #a01e38; */
+
+   transition: all 0.3s;
+}
+   
+.main-button--secondary {
+   background-color: #ef6d58;
+}
+.main-button span {
+   position: relative;
+   z-index: 2;
+}
+.main-button::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -35%;
+   width: 30%;
+   height: 200%;
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.6));
+   transform: skew(-30deg) translate(-100%, -25%);
+   will-change: left;
+}
+.main-button:hover::before {
+   left: 150%;
+   transition: left 1s;
+}
+.main-button--center {
+   margin: 0 auto;
+}

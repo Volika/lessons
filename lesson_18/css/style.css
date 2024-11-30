@@ -1,0 +1,192 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,500,600,700,800,900&display=swap");
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+@import url("common.css");
+@import url("header.css");
+
+/* Основні стилі */
+body {
+	font-family: "Epilogue", sans-serif;
+	color: #999999;
+	font-size: 18px;
+   background: url("../img/concrete-1646788_1920.jpg");
+	/* background-color: #a2a2b6; */
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip */
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+/* --------------------- */
+
+[class*="__container"] {
+	max-width: 1740px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+[class*="--margin"] {
+	margin-bottom: 20px;
+}
+/* --------- hesder ------------ */
+.header__container,
+.footer__container {
+   background-color: #28293E;
+}
+/* --------- main ------------ */
+
+.grid {
+	padding-inline: 15px;
+}
+.grid__container {
+	/* width: 1740px; */
+   padding: 100px  20px 20px;
+}
+/* GRID */
+.grid__items {
+	display: grid;
+	grid-template-columns:  1fr;	
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   column-gap: 16px;
+   row-gap: 12px;
+   /* grid-auto-flow: column; */
+
+	/* grid-template-rows: repeat(5, auto); */
+
+	/* align-items: start; */
+
+	/* column-gap: 26px; */
+	/* row-gap: 32px; */
+}
+
+.item__content {
+	/* background-color: #7a956b; */
+	/* border-radius: 15px; */
+	/* text-align: center; */
+	/* padding: 10px; */
+}
+.item__content img {
+   object-fit: cover;
+   object-position: 0 bottom;
+   width: 100%;
+	aspect-ratio: 304 / 152;
+   overflow: hidden;
+   border-radius: 10px;
+   /* align-items: end; */
+}
+
+.item__img-none img {
+   object-position: 0 top;
+}
+.item__content:hover {
+ box-shadow: 10px 5px 5px #28293E;
+ ;
+ border-radius: 10px;
+
+   /* transform: rotateY(180deg); */
+   transform: translateY(-1px);
+   transition: all 0.3s;
+}
+
+@media (min-width: 650px) {
+   .grid__items {
+      grid-template-columns:  repeat(2, 1fr);
+      column-gap: 16px;
+
+   }
+}
+
+@media (min-width: 768px) {
+   .grid__items {
+      grid-template-columns:  repeat(3, 1fr);
+      column-gap: 24px;
+      row-gap: 12px;
+   }
+
+   .item__content img {
+      /* object-fit: cover; */
+      /* object-position: 0 bottom; */
+      /* width: 100%; */
+      /* height: 100%; */
+      /* overflow: hidden; */
+   }
+  
+   
+}
+@media (min-width: 950px) {
+   .grid__items {
+      grid-template-columns:  repeat(4, 0.2945736434108527fr);
+      grid-template-rows: 19fr 1fr 11fr 1fr 19fr 19fr 1fr 11fr 1fr 19fr;
+      /* grid-template-rows: 304px 16px 176px 16px 304px 304px 16px 176px 16px 304px; */
+      /* grid-template-rows: 152px 8px 88px 8px 152px 152px 8px 88px 8px 152px; */
+      column-gap: 24px;
+      row-gap: 20px;
+      grid-auto-flow: row;
+      /* line-height: 1,271318; */
+   }
+
+   .item__content img {
+      /* object-fit: cover; */
+      /* object-position: 0 bottom; */
+      width: 100%;
+      height: 100%;
+     
+      overflow: hidden;
+   }
+   .item__img-none {
+      display: block;
+   }
+      .item .item--fr1 {
+   	/* aspect-ratio: 304 / 152; */
+      grid-row: span 1;
+      }
+   .item .item__content--fr19 {
+      aspect-ratio: 304 / 152;
+      /* grid-row: span 1; */
+      }
+      .item--fr2 {
+         /* aspect-ratio: 304 / 184; */
+         grid-row: span 2;
+      }
+      .item .item__content--fr23 {
+         aspect-ratio: 304 / 184;
+         /* grid-row: span 2; */
+      }
+      .item--fr3 {
+         /* aspect-ratio: 304 / 296; */
+         grid-row: span 3;
+      }
+      .item .item__content--fr37 {
+            aspect-ratio: 304 / 296;
+            /* grid-row: span 3; */
+      }
+   .item--fr5 {
+      /* aspect-ratio: 304 / 504; */
+      grid-row: span 5;
+   }
+   .item .item__content--fr63 {
+      aspect-ratio: 304 / 504;
+      /* grid-row: span 5; */
+   }
+}
+
+
+/* ---------------- */
+
+
+.footer__container {
+   padding: 15px;
+   font-size: 20px;
+}

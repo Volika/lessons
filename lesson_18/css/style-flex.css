@@ -1,0 +1,188 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Manrope", sans-serif;
+	color: #fff;
+	font-size: 18px;
+	background-color: #333;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip */
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+/* --------------------- */
+
+[class*="__container"] {
+	max-width: 1200px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+[class*="--margin"] {
+	margin-bottom: 20px;
+}
+
+.page {
+	/* padding-block: 15px; */
+}
+/* --------------------- */
+
+.example-flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.example-flex__item {
+	border-radius: 20px;
+	background-color: #7a956b;
+
+	/* flex-basis: 40.17094%;  */ /* 470/1170 */
+	/* flex-basis: 41.22807%; */ /* 470/1140 */
+	/* flex-basis: 39.166667%; */ /* 470/1200 */
+
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 470px;
+	aspect-ratio: 470 / 416;
+}
+
+@media (min-width: 1200px) {
+	.example-flex__item:nth-child(4n + 2),
+	.example-flex__item:nth-child(4n + 3) {
+		/* flex-basis: 57.264957%;  */ /* 670/1170 */
+		/* flex-basis: 58.77193%; */ /* 670/1140 */
+		/* flex-basis: 55.833333%; */ /* 670/1200 */
+		flex-basis: 670px;
+		aspect-ratio: 670 / 416;
+	}
+}
+@media (max-width: 999.98px) {
+	.example-flex__item {
+		flex-basis: 320px;
+		aspect-ratio: 470 / 416;
+	}
+}
+
+.example-grid {
+	display: grid;
+	gap: 30px;
+}
+.example-grid__item {
+	background-color: #77608d;
+	border-radius: 20px;
+	/* АРТЕФАКТ при застосуванні для грід-елементу  */
+	/* aspect-ratio: 470 / 416; */
+}
+
+.example-grid__content {
+	aspect-ratio: 470 / 416;
+}
+
+@media (min-width: 680px) {
+	.example-grid {
+		grid-template-columns: 0.42342342fr 0.15315315fr 0.42342342fr;
+
+		/* те на що ми ділемо (дільник) = контейнер - (геп * кількість) */
+		/* fr = розмір колонки / те на що ми ділемо (дільник) */
+	}
+
+	.example-grid__item:nth-child(4n + 2),
+	.example-grid__item:nth-child(4n + 3) {
+		grid-column: span 2;
+	}
+	.example-grid__item:nth-child(4n + 2) .example-grid__content,
+	.example-grid__item:nth-child(4n + 3) .example-grid__content {
+		aspect-ratio: 670 / 416;
+	}
+}
+
+/* Практика */
+
+.grid {
+	padding-block: 15px;
+}
+.grid__container {
+	max-width: 1343px;
+}
+/* GRID */
+/*  
+.items {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, auto);
+
+	align-items: start;
+
+	column-gap: 32px;
+	row-gap: 26px;
+}
+*/
+
+/* FLEX */
+
+.items {
+	display: flex;
+	column-gap: 32px;
+	row-gap: 26px;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	max-block-size: 1034px;
+}
+.item {
+	inline-size: 305px;
+}
+
+.item__content {
+	background-color: #7a956b;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px;
+}
+
+.item:nth-child(17n + 1) .item__content,
+.item:nth-child(17n + 3) .item__content,
+.item:nth-child(17n + 6) .item__content,
+.item:nth-child(17n + 14) .item__content,
+.item:nth-child(17n + 15) .item__content {
+	aspect-ratio: 305 / 183;
+}
+
+.item:nth-child(17n + 2) .item__content,
+.item:nth-child(17n + 4) .item__content,
+.item:nth-child(17n + 5) .item__content,
+.item:nth-child(17n + 13) .item__content,
+.item:nth-child(17n + 16) .item__content {
+	aspect-ratio: 305 / 295;
+}
+
+.item:nth-child(17n + 7) .item__content,
+.item:nth-child(17n + 8) .item__content,
+.item:nth-child(17n + 9) .item__content,
+.item:nth-child(17n + 10) .item__content,
+.item:nth-child(17n + 11) .item__content,
+.item:nth-child(17n + 12) .item__content {
+	aspect-ratio: 305 / 150.5;
+}
+
+.item:nth-child(17n + 17) .item__content {
+	aspect-ratio: 305 / 504;
+}
