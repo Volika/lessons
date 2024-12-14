@@ -425,8 +425,9 @@
    .footer__copyright {
       justify-self: start;
    }
-   .footer__botton {
+   .footer__botton .section-heading__button{
       max-width: 109px;
+      font-size: 10px;
    }
    .footer__body {
       flex-direction: row;
