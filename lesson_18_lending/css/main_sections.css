@@ -1,0 +1,265 @@
+/* ----------section----------- */
+.main__section {
+   padding-block-start: 50px;
+}
+/* -------------------------section__container----- */
+.section__container {
+}
+/* -----------------------section__content------ */
+.section__content {
+   margin-block-end: 50px;
+}
+/* ----------------------- section__block section-heading------ */
+.section__block {}
+.section__block--mobil {
+   margin-block-end: 40px;
+}
+/* ----------------------- section-heading__title ------ */
+.section-heading__title {
+   color: #091133;
+   margin-block-end: 16px;
+}
+/* ----------------------- section-heading__text ------- */
+.section-heading__text {
+   color: #6F7CB2;
+}
+
+.section-heading__text--mention {
+   margin-block-end: 24px;
+}
+/* ----------------------- section__cards card ---after --section__block--mobil---- */
+.section__cards {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 30px;
+   /* max-width: 540px; */
+}
+.card {
+}
+.card__item {
+}
+.card__img {
+   width: 36px;
+   aspect-ratio: 1;
+   margin-block-end: 14px;
+}
+.card__img img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+/* ----------------------- section__image ------- */
+.section__image {
+margin: 0 auto;
+}
+.section__image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.section__image--mobil {
+   max-width: 540px;
+   /* aspect-ratio: 540 / 525; */
+}
+.section__image--news {
+   max-width: 480px;
+   padding-inline: 27px 0px;    
+   /* aspect-ratio: 480 / 315.85; */
+}
+.section__image--social {
+   max-width: 540px;
+   padding-left: 27px;   
+   /* aspect-ratio: 540 / 387; */
+}
+.section__image--mention {
+   max-width: 445px;
+   padding-left: 27px;   
+   /* aspect-ratio: 445 / 312; */
+}
+/* ----------------------- section__picture ------- */
+.section__picture img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+/* ----------------------------- */
+@media (min-width: 700px) {
+   .section__container--news {
+      padding-left: 27px;    
+   }
+   .section__container--mention {
+      padding-left: 45px;    
+   }
+}
+/* -----------------------min-width: 768px------- */
+
+@media (min-width: 768px) {
+   .main__section {
+      padding-block: 0px;
+   }
+   /* ------------------------------------- */
+   .section-heading {
+      margin-block-end: 0px;
+   }
+   /* ---------------section__container---------------------- */
+   .section__container {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(240px, 1fr));
+      justify-content: space-between;
+      max-width: 1110px;
+   }
+   .section__container--mobil {
+      grid-template-areas: "content image";
+   }
+   .section__container--news,
+   .section__container--social,
+   .section__container--mention {
+      grid-template-areas: "image content";
+   }
+   .section__container--mobil {
+      padding-block: 9.82%  9.82%;
+      /* padding-block: 109px 109px; 742 */
+      padding-inline: 0;
+      column-gap: 2.7%;
+
+   }
+   .section__container--news {
+      padding-block: 10.99%  11.8%;
+      /* padding-block: 122px 131px; 569*/
+      column-gap: 13.964%;
+
+   }
+   .section__container--social {
+      padding-block: 8.198%  8.198%;
+      /* padding-block: 91px  91px; 569 */
+      column-gap: 11.26%;
+   }
+   .section__container--mention {
+      padding-block: 12.8%  14.775%;
+      /* padding-block: 142px  164px; 546 */
+      padding-inline-start: 45px;     
+      column-gap: 15.49%;
+   }
+   /* ---------------section__content---------------------- */
+   .section__content {
+      grid-area: content;
+      padding-block: 0px;
+      margin-block-end: 0px;
+   }
+   .section__content--mobil {
+      padding-block-start: 9.603%;
+   }
+   .section__content--news {
+      padding-block-start: 10.823%;
+   }
+   .section__content--social{
+      padding-block-start: 18.99%;
+      padding-inline-end: 4px;  
+   } 
+   .section__content--mention {
+      padding-inline-end: 4px;     
+   }
+/* ---------------------------------------- */
+   .section__block--mobil {
+      margin-block-end: 10.78%;
+   }
+   .section__block--mention {
+      margin-block-end: 7.21%;
+   }
+   /* -------------------------------------- */
+   .section-heading__title {
+   }
+   /* ------------------------------ */
+   .section-heading__text--mention {
+      margin-block-end: 44px;
+   }
+   .section-heading__button--mention {
+      max-width: 150px;
+   }
+   /* ------------------------------- */
+   .section__image {
+      align-self: self-start;
+      padding: 0px;
+   }
+   .section__picture--mobil {
+      max-width: 540px;
+      aspect-ratio: 540 / 525;
+   }
+   /* ---------------------- */
+      .section__image--news{
+      grid-area: image;
+      min-width: 68.19%;
+      padding-inline: 27px 0px;    
+      padding-block: 0;
+   }
+   .section__picture--news {
+      max-width: 480px;
+      aspect-ratio: 480 / 315;
+   }
+   /* ---------------------------------- */
+   .section__image--social{
+      grid-area: image;
+      padding-block: 0;
+   }
+
+   .section__picture--social {
+      max-width: 540px;
+      aspect-ratio: 540 / 387;
+   }
+   /* --------------------------------mention------- */
+   .section__image--mention{
+      grid-area: image;
+      min-width: 68.19%;
+      padding-block: 0;
+   }
+   .section__picture--mention {
+      max-width: 490px;
+      aspect-ratio: 445 / 312;
+   }
+
+}
+/* ---------------------------------------- */
+@media (min-width: 1109.98px) {
+
+   .section__container--mobil {
+      padding-block: 109px 109px;
+   }
+   .section__container--news {
+      padding-block: 122px 131px;
+   }
+   .section__container--social {
+      padding-block: 91px  91px;
+   }
+   .section__container--mention {
+      padding-block: 142px  164px;
+   }
+/* ------------------------- */
+.section__content--mobil, 
+.section__content--news {
+   padding-block-start: 50px;
+}
+.section__content--social{
+   padding-block-start: 80px;
+} 
+/* ---------------------- */
+   .section__image--mobil {
+      max-width: 540px;
+      aspect-ratio: 540 / 524.31;
+   }
+   .section__image--news {
+      max-width: 480px;
+      aspect-ratio: 480 / 315.85;
+   }
+   .section__image--social {
+      max-width: 540px;
+      aspect-ratio: 540 / 387;
+   }
+   .section__image--mention {
+      max-width: 507px;
+      /* width: 480px; */
+      aspect-ratio: 480 / 415;
+      /* padding-block: 50px  50px; */
+      padding-left: 27px;   
+   }
+   
+}

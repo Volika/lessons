@@ -1,0 +1,66 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,500,600,700,800,900&display=swap");
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+@import url("common.css");
+@import url("header.css");
+
+@import url("main.css");
+@import url("main_sections.css");
+
+/* Основні стилі */
+body {
+	font-family: "Roboto", sans-serif;
+	color: #505F98;
+	font-size: 16px;
+   /* background: url("../img/concrete-1646788_1920.jpg"); */
+	background-color: #ffffff;
+   /* color: #091133; */
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip */
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+/* --------------------- */
+
+[class*="__container"] {
+	max-width: 1140px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+[class*="--margin"] {
+	margin-bottom: 20px;
+}
+/* --------- hesder ------------ */
+.header {
+   /* display: none; */
+}
+.header__container,
+.footer__container {
+min-height: 60px;
+}
+/* --------- main ------------ */
+
+.main {
+   width: 100%;
+}
+/* ---------------- */
+
+
+.footer__container {
+   padding: 15px;
+   font-size: 20px;
+}
