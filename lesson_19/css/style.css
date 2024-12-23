@@ -29,19 +29,18 @@ body {
 	padding-inline: 15px;
    margin: 0 auto;
 }
+.wrapper__header {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 50px;
+}
 .wrapper__name {
 	font-size: 20px;
    font-weight: 600;
 	border-bottom: 1px solid black;
 	padding-block: 10px;
 }
-.header__logo,
-.menu__link--work {
-   font-size: 20px;
-   font-weight: 600;
-   border-bottom: 1px solid black;
-	padding-block: 10px;
-}
+
 .brand-logo__name {
 display: none;
 }
