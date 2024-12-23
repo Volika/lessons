@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>19-Semantics</title>
+
+</head>
+<body>
+   <div class="wrapper">
+      <div class="wrapper__name">19 - Semantics</div>
+      <header class="header">
+         <div class="header__container">
+            <div class="header__logo">
+               <a href="#" class="header__logotype">
+                  <img src="img/logo-0.svg" alt="Logotype">
+                  <span>Agency</span>
+               </a>
+            </div>
+            <nav class="header__menu menu">
+               <div class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="about_me.html" class="menu__link menu__link--work">About</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+                     <li class="menu__item menu__item--none"><a href="#" class="menu__link">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+            <div class="header__actions actions-header">
+               <a href="#" class="actions-header__item main-button"><span>Contact</span></a>
+               <!-- кнопка бургер-меню -->
+               <button class="actions-header__icon icon-menu" type="button"><span></span></button>
+            </div>
+         </div>
+      </header>
+      <main class="main">        
+         <!-- <div class="section-hero hero"></div> -->
+         <!-- portfolio -->
+         <section class="main__section portfolio">
+            <div class="portfolio__container">
+               <div class="portfolio__heading block-content">
+                  <div class="block-content__label">Portfolio</div>
+                  <h2 class="block-content__title">Latest Work</h2>
+               </div>
+               <div class="portfolio__menu menu-portfolio">
+                  <ul class="menu-portfolio__items menu-portfolio__items--flex">
+                     <li class="menu-portfolio__item menu-portfolio__item--activ"><a href="#"><span>Show All <sup>14</sup></span></a></li>
+                     <li class="menu-portfolio__item"><a href="#"><span>Design <sup>6</sup></span></a></li>
+                     <li class="menu-portfolio__item"><a href="#"><span>Branding <sup>4</sup></span></a></li>
+                     <li class="menu-portfolio__item"><a href="#"><span>Illustration <sup>3</sup></span></a></li>
+                     <li class="menu-portfolio__item"><a href="#"><span>Motion <sup>1</sup></span></a></li>
+                  </ul>
+               </div>
+               <div class="portfolio__select">
+                  <select name="form[select]" class="portfolio__item-select">
+                     <option value="Show All" selected>Show All</option>
+                     <option value="Design">Design</option>
+                     <option value="Branding">Branding</option>
+                     <option value="Illustration">Illustration</option>
+                     <option value="Motion">Motion</option>
+                  </select>
+               </div>
+               <div class="portfolio__cards portfolio__cards--flex"> 
+                  <article class="portfolio__card img-portfolio">
+                     <a href="#" class="img-portfolio__item">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/portfolio/p-sofa_1x.webp" alt="sofa">
+                        </div>
+                        <div class="img-portfolio__content">
+                           <div class="img-portfolio__label">Design</div>
+                           <h3 class="img-portfolio__title">SOFA</h3>
+                        </div>
+                     </a>  
+                  </article>
+                  <article class="portfolio__card img-portfolio">
+                     <a href="#" class="img-portfolio__item">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/portfolio/p-keyboard_1x.webp" alt="keyboard">
+                        </div>
+                        <div class="img-portfolio__content">
+                           <div class="img-portfolio__label">Branding</div>
+                           <h3 class="img-portfolio__title">KeyBoard</h3>
+                        </div>
+                     </a>  
+                  </article>
+                  <article class="portfolio__card img-portfolio">
+                     <a href="#" class="img-portfolio__item">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/portfolio/p-media_1x.webp" alt="workmedia">
+                        </div>
+                        <div class="img-portfolio__content">
+                           <div class="img-portfolio__label">Illustration</div>
+                           <h3 class="img-portfolio__title">Work Media</h3>
+                        </div>
+                     </a>  
+                  </article>
+                  <article class="portfolio__card img-portfolio">
+                     <a href="#" class="img-portfolio__item">
+                        <div class="img-portfolio__picture">
+                           <img class="img-portfolio__image" src="img/portfolio/p-dddone_1x.webp" alt="motion">
+                        </div>
+                        <div class="img-portfolio__content">
+                           <div class="img-portfolio__label">Motion</div>
+                           <h3 class="img-portfolio__title">DDDone</h3>
+                        </div>
+                     </a>  
+                  </article>
+               </div>
+                  <!-- portfolio-section__btn block-content -->                                         
+               <div class="portfolio__button block-content">
+                  <a class="block-content__button" href="#">Explore More</a>
+               </div>                                          
+            </div>
+         </section>
+         <!-- get-started -->
+         <section id="get-started" class="main__section-started get-started-section">                 
+            <div class="get-started-section__container">
+               <div class="get-started-section__items">
+                  <div class="get-started-section__item">
+                     <div class="get-started-section__content-item">
+                        <div class="get-started-section__icon-box">
+                           <img src="img/get-started/get-started_box.svg" alt="box"> 
+                        </div>
+                        <div class="get-started-section__content block-content">
+                              <div class="block-content__label">Get Started</div>
+                              <h4 class="block-content__title">We Help Companies Move Faster</h4>
+                              <a class="block-content__link" href="#">Contact Us</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="get-started-section__item ">
+                     <div class="get-started-section__letter-item">
+                        <img src="img/get-started/get-started_letter.png" alt="letter" >
+                     </div>
+                  </div>
+                  <div class="get-started-section__item ">
+                     <div class="get-started-section__icon-item">
+                        <!-- <img class="get-started-section__cloud" src="img/get-started/get-started_cloud.svg" alt="cloud"> -->
+                        <img class="get-started-section__girl" src="img/get-started/get-started_girl.png" alt="girl">      
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Events -->
+         <section class="main__section-events events-section">
+            <div class="events-section__container">
+               <div class="events-section__header block-content">
+                  <div class="block-content__label block-content__label--center">Events</div>
+                  <h2 class="block-content__title block-content__title--center">Explore Future Conferences</h2>
+               </div>
+               <div class="events-section__items">
+                  <article class="events-section__item">
+                     <div class="events-section__block content-block-event">
+                        <div class="content-block-event__time">
+                           <div class="content-block-event__month">
+                              <div class="content-block-event__day">3</div>
+                              <div class="content-block-event__year">
+                                 <p>November</p> 
+                                 <p>2021</p>
+                              </div>
+                           </div>
+                           <div class="content-block-event__clock">
+                              <time datetime="2021-11-03T09:00:00">09:00 am – 3:00 pm</time>
+                           </div>
+                        </div>
+                        <h4 class="content-block-event__title">Design Weeks</h4>
+                        <div class="content-block-event__text">
+                           Digital agency is a business you hire to outsource your digital.
+                        </div>
+                        <a class="content-block-event__explore" href="#">Explore Now</a>
+                     </div>
+                  </article>
+                  <article class="events-section__item">
+                     <div class="events-section__block content-block-event">
+                        <div class="content-block-event__time">
+                           <div class="content-block-event__month">
+                              <div class="content-block-event__day">15</div>
+                              <div class="content-block-event__year">
+                                 <p>November</p> 
+                                 <p>2021</p>
+                              </div>
+                           </div>
+                           <div class="content-block-event__clock">
+                              <time datetime="2021-11-15T13:00:00">1:00 pm – 8:00 pm</time>
+                           </div>
+                           <!-- <div class="content-block-event__line"></div> -->
+                        </div>
+                        <h4 class="content-block-event__title">Interior Design</h4>
+                        <div class="content-block-event__text">
+                           Marketing efforts, instead of handling in-house.
+                        </div>
+                        <a class="content-block-event__explore" href="#">Explore Now</a>
+                     </div>
+                  </article>
+                  <article class="events-section__item">
+                     <div class="events-section__block content-block-event">
+                        <div class="content-block-event__time">
+                           <div class="content-block-event__month">
+                              <div class="content-block-event__day">2</div>
+                              <div class="content-block-event__year">
+                                 <p>December</p> 
+                                 <p>2021</p>
+                              </div>
+                           </div>
+                           <div class="content-block-event__clock">
+                              <time datetime="2021-12-02T10:00:00">10:00 am – 2:00 pm</time>
+                           </div> 
+                        </div>
+                        <h4 class="content-block-event__title">The F design events</h4>
+                        <div class="content-block-event__text">
+                           Provide your business with a variety of digital solutions to promote.
+                        </div>
+                        <a class="content-block-event__explore" href="#">Explore Now</a>
+                     </div>
+                  </article>
+               </div>
+
+               <div class="events-section__link block-content">
+                  <a class="block-content__link" href="#">Explore More</a>
+               </div>                                          
+            </div>
+         </section>
+         <!-- Our Team -->
+         <section class="main__section-team our-team-section">
+            <div class="our-team-section__container">
+               <div class="our-team-section__block-header">
+                  <div class="our-team-section__header block-content">
+                     <div class="block-content__label">Our Team</div>
+                     <h2 class="block-content__title">Team of Designers and Developers</h2>
+                  </div>
+                  <div class="our-team-section__arrows slider-arrows">
+                     <button type="button" aria-label="Previous" class="slider-arrows__arrow slider-arrows__arrow--left">
+                        <img src="img/icon_arrow.svg" alt="Arrow icon">
+                     </button>
+                     <button type="button" aria-label="Next" class="slider-arrows__arrow slider-arrows__arrow--right">
+                        <img src="img/icon_arrow.svg" alt="Arrow icon">
+                     </button>
+                  </div>
+               </div>
+               <div class="our-team-section__items">
+                  <article class="our-team-section__item">
+                     <figure>
+                        <div class="our-team-section__person">
+                           <img src="img/team/team_azah.png" alt="Azah Anyeni">
+                        </div>
+                        <figcaption class="our-team-section__name">
+                           <h4>Azah Anyeni</h4>
+                           <div class="our-team-section__job">Designer</div>
+                        </figcaption>
+                     </figure>
+                  </article>
+                  <article class="our-team-section__item">
+                     <figure>
+                        <div class="our-team-section__person">
+                           <img src="img/team/team_roelof.png" alt="Roelof Bekkenenks">
+                        </div>
+                        <figcaption class="our-team-section__name">
+                           <h4>Roelof Bekkenenks</h4>
+                           <div class="our-team-section__job">React Developer</div>
+                        </figcaption>
+                     </figure>
+                  </article>
+                  <article class="our-team-section__item">
+                     <figure>
+                        <div class="our-team-section__person">
+                           <img src="img/team/team_leonardo.png" alt="Leonardo Oliveira">
+                        </div>
+                        <figcaption class="our-team-section__name">
+                           <h4>Leonardo Oliveira</h4>
+                           <div class="our-team-section__job">Illustrator</div>
+                        </figcaption>
+                     </figure>
+                  </article>
+                  <article class="our-team-section__item">
+                     <figure>
+                        <div class="our-team-section__person">
+                           <img src="img/team/team_izabella.png" alt="Izabella Tabakova">
+                        </div>
+                        <figcaption class="our-team-section__name">
+                           <h4>Izabella Tabakova</h4>
+                           <div class="our-team-section__job">Product Designer</div>
+                        </figcaption>
+                     </figure>
+                  </article>
+               </div>
+               <div class="our-team-section__slider slider-section">
+                  <button type="button" aria-label="Slider control" class="slider-section__point slider-section__point--active"></button>
+                  <button type="button" aria-label="Slider control" class="slider-section__point"></button>
+                  <button type="button" aria-label="Slider control" class="slider-section__point"></button>
+               </div>
+            </div>
+         </section>
+         <!--  Founder Words  -->
+         <section class="main__section-worlds founder-words-section">
+            <div class="founder-words-section__contaimer">
+               <div class="founder-words-section__items">
+                  <div class="founder-words-section__item">
+                     <div class="founder-words-section__image">
+                        <img src="img/founder-words/founder-words_photo.png" alt="founder-words-photo" class="founder-words-section__photo">
+                     </div>
+                  </div>
+                  <div class="founder-words-section__item">
+                     <div class="founder-words-section__header block-content">
+                        <div class="block-content__label">Founder Words</div>
+                        <blockquote class="block-content__title">
+                           <h3>Digital agency is a business you hire to outsource your digital marketing efforts</h3>
+                        </blockquote>
+                        <div class="block-content__name">Ren Delan</div>
+                        <div class="block-content__job">Founder</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="main__section-testimonials testimonials">
+            <div class="testimonials__container">
+               <div class="testimonials__heading block-content">
+                  <div class="block-content__label">Testimonials</div>
+                  <h2 class="block-content__title">What Our Clients Saying</h2>
+               </div>
+               <div class="testimonials__items">
+                  <article class="testimonials__item block-content">
+                     <div class="block-content__stars">
+                        <img src="img/testimonials/t-star-5.png" alt="5 stars.">
+                     </div>
+                     <div class="block-content__text">
+                        <p>
+                           A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                        </p>
+                     </div>
+                     <div class="block-content__more block-content__more--flex more-block">
+                        <div class="more-block__picture">
+                           <img src="img/testimonials/t-alan.png" alt="hero-picture" class="more-block__img">
+                        </div>
+                        <div class="more-block__content">
+                           <h4 class="more-block__name">Alan Martí</h4>
+                           <div class="more-block__info">Meta Inc.</div>
+                        </div>
+                     </div> 
+                  </article>
+                  <article class="testimonials__item block-content">
+                     <div class="block-content__stars">
+                        <img src="img/testimonials/t-star-5.png" alt="5 stars.">
+                     </div>
+                     <div class="block-content__text">
+                        <p>
+                           Provide your business with a variety of digital solutions to promote your product or service online.
+                        </p>
+                     </div>
+                     <div class="block-content__more block-content__more--flex more-block">
+                        <div class="more-block__picture">
+                           <img src="img/testimonials/t-kann.png" alt="hero-picture" class="more-block__img">
+                        </div>
+                        <div class="more-block__content">
+                           <h4 class="more-block__name">Richardo Kann</h4>
+                           <div class="more-block__info">Photogram</div>
+                        </div>
+                     </div> 
+                  </article>
+                  <article class="testimonials__item block-content">
+                     <div class="block-content__stars">
+                        <img src="img/testimonials/t-star-5.png" alt="5 stars.">
+                     </div>
+                     <div class="block-content__text">
+                        <p>
+                           Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.
+                        </p>
+                     </div>
+                     <div class="block-content__more block-content__more--flex more-block">
+                        <div class="more-block__picture">
+                           <img src="img/testimonials/t-griffiths.png" alt="hero-picture" class="more-block__img">
+                        </div>
+                        <div class="more-block__content">
+                           <h4 class="more-block__name">Graham Griffiths</h4>
+                           <div class="more-block__info">Twitor</div>
+                        </div>
+                     </div> 
+                  </article>
+                  <article class="testimonials__item block-content">
+                     <div class="block-content__stars">
+                        <img src="img/testimonials/t-star-5.png" alt="5 stars.">
+                     </div>
+                     <div class="block-content__text">
+                        <p>
+                           Promote your product or service online and help you hit your marketing goals and grow your business.
+                        </p>
+                     </div>
+                     <div class="block-content__more block-content__more--flex more-block">
+                        <div class="more-block__picture">
+                           <img src="img/testimonials/t-trofimova.png" alt="hero-picture" class="more-block__img">
+                        </div>
+                        <div class="more-block__content">
+                           <h4 class="more-block__name">Maria Trofimova</h4>
+                           <div class="more-block__info">Whochat</div>
+                        </div>
+                     </div> 
+                  </article>
+               </div>
+               <div class="testimonials__link block-content">
+                  <a class="block-content__link" href="#">See All</a>
+               </div>                                          
+            </div>
+         </section>
+      </main>
+      <footer class="footer"> 
+         <!-- <div class="bounding-container"><h2>Footer 19-Semantics</h2></div> -->
+         <div class="footer__container">
+            <div class="footer__items">
+               <div class="footer__item">
+                  <a href="#" class="footer__logotype">
+                     <span>Agency</span>
+                  </a>
+               </div>
+               <div class="footer__item menu-footer">
+                  <h5>Menu</h5>
+                  <ul class="menu-footer__list">
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">About</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Services</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Blog</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="footer__item menu-footer">
+                  <h5>Service</h5>
+                  <ul class="menu-footer__list">
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Design</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Development</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">Marketing</a></li>
+                     <li class="menu-footer__item"><a href="#" class="menu-footer__link">See More</a></li>
+                  </ul>
+               </div>
+               <div class="footer__item social-icons">
+                  <ul class="social-icons__list">
+                     <li class="social-icons__item"><a href="#" class="social-icons__link">
+                        <img src="img/icon/i-facebook.svg" alt="facebook">
+                     </a></li>
+                     <li class="social-icons__item"><a href="#" class="social-icons__link">
+                        <img src="img/icon/i-twitter.svg" alt="twitter">
+                     </a></li>
+                     <li class="social-icons__item"><a href="#" class="social-icons__link">
+                        <img src="img/icon/i-instagram.svg" alt="instagram">
+                     </a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer__end end-footer">
+					<p>Copyright &copy; 2022 Laaqiq. All Rights Reserved.</p>
+					<ul class="end-footer__list">
+						<li class="end-footer__item"><a href="#" class="end-footer__link">Terms of Use</a></li>
+						<li class="end-footer__item"><a href="#" class="end-footer__link">Privacy Policy</a></li>
+					</ul>					
+				</div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>

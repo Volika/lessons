@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,500,600,700,800,900&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+/* Основні стилі */
+body {
+   font-family: "Epilogue", sans-serif;
+   font-size: 16px;
+   color: #000000;
+   /* background-color: #28293E; */
+   background-color: #FDF0E9;
+   /* line-height: 1.5; */
+}
+.wrapper {
+   min-height: 100%;
+   overflow: clip; 
+   display: flex;
+   flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+/* --------------------- */
+[class*="__container"] {
+	max-width: 1200px;
+	padding-inline: 15px;
+   margin: 0 auto;
+}
+.wrapper__name {
+	font-size: 20px;
+   font-weight: 600;
+	border-bottom: 1px solid black;
+	padding-block: 10px;
+}
+.header__logo,
+.menu__link--work {
+   font-size: 20px;
+   font-weight: 600;
+   border-bottom: 1px solid black;
+	padding-block: 10px;
+}
+.brand-logo__name {
+display: none;
+}
