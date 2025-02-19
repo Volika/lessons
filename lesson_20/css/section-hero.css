@@ -1,0 +1,59 @@
+.main__section-hero {
+}
+.hero {
+   padding-block-start: clamp(30px, 9.32vw + 0.176px, 126px);
+	padding-block-end: clamp(20px, 4.854vw + 4.464px, 70px);
+}
+.hero__container {
+   position: relative;
+	display: grid;
+	gap: 20px;
+}
+.hero__container::before,
+.hero__container::after {
+	content: "";
+	z-index: -1;
+	position: absolute;
+	filter: var(--bdrop-filter);
+	inset-inline-end: 0;
+}
+.hero__container::before {
+	inline-size: 65.984848%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	inset-block-start: 0;
+	transform:  translate(36.624569%, -100%) rotate(130.444deg);
+	background-color: var(--colorPurple04);
+}
+.hero__container::after {
+	inline-size: 79.090909%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	inset-block-end: 0;
+	transform:  translate(100%, 50%) rotate(130.444deg);
+	background-color: var(--colorGreen07);
+}
+.hero__heading {
+}
+.block-content {
+}
+.block-content__title {
+}
+.block-content__text {
+}
+.block-content__link {
+}
+.hero__image {
+}
+.hero__info {
+}
+.worth {
+}
+.worth__list {
+}
+.worth__item {
+}
+.worth__value {
+}
+.worth__name {
+}

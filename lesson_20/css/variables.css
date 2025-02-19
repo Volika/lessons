@@ -1,0 +1,53 @@
+:root {
+	--fontFamilyPrimary: "Work Sans", sans-serif;
+	--fontFamilyPoppins: "Poppins", sans-serif;
+	--fontFamilyPublic: "Public Sans", sans-serif;
+
+   --radiusPrimary: 0.25rem; /* 4px */
+
+   --colorWhite: #ffffff;
+   --colorWhite03: rgba(255, 255, 255, 0.3);
+
+   --colorGray900: #132238;
+	--colorGray600: #556070;
+
+	--colorGray800: #2B384C;
+	--colorGray700: #424E60;
+
+   --colorGray100: #E6E8EB;
+	--colorGray400: #87909d;   
+   
+   --colorGray500: #697484;
+
+   --colorPrimary500: #A53DFF;
+   --colorPrimaryHover: #561292;
+
+   --colorLight: #edd8ff;
+	--colorLight05: rgba(237, 216, 255, 0.502);
+	--colorLightHover: #9e5fd580;
+
+   --colorPrimary900: #210C33;
+
+   --colorBlueMidle: #505f98;
+	--colorBlueLight: #F0F1F3;
+
+	--colorDark: #333333;
+
+   --colorSecondary: #fdf0e9;
+
+	--colorPurple: #da4df1;
+   --colorPurple04: rgba(218, 77, 241, 0.40);
+   --colorGreen: #c4f5e9;
+	--colorGreen07: rgba(196, 245, 233, 0.70);
+
+   --colorOrange: #ef6d58;
+   --bdrop-filter: blur(37.5rem);
+
+   --LinearGrad01: linear-gradient(181.87deg, rgba(255, 234, 198, 0.2) -157.44%, rgba(255, 234, 198, 0.144) 216.94%, rgba(255, 234, 198, 0.134) 216.94%);
+   --LinearGrad02: linear-gradient(181.87deg, #FFDFA8 -157.44%, rgba(255, 226, 176, 0.96) -157.4%, rgba(255, 234, 198, 0.67) 216.94%, rgba(250, 211, 144, 0.8) 216.94%);
+
+	--boxShadow: 0rem 0rem 0.625rem rgba(218, 77, 241, 0.80);
+   --boxShadow2: 0.0625rem 0.125rem 0.3125rem rgba(218, 77, 241, 0.80); 
+   --LinearGrad00: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.6));
+}
+

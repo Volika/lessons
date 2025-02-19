@@ -1,0 +1,45 @@
+/* @import url("https://fonts.googleapis.com/css?family=Epilogue:regular,500,600,700,800,900&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Public+Sans:regular,500,600,700,800,900&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+@import url("common.css");
+@import url("variables.css");
+
+@import url("header.css");
+@import url("section-hero.css");
+
+/* Основні стилі */
+
+body {
+   font-family: var(--fontFamilyPrimary);
+   background-color: var(--colorWhite);
+   font-size: 16px;
+   font-weight: 400;   
+   line-height: 1.5;
+   text-align: left;   
+}
+.wrapper {
+   min-height: 100%;
+   overflow: clip; 
+   display: flex;
+   flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+/* --------------------- */
+[class*="__container"] {
+   /* 1350px / 16 */
+	max-width: 84.375rem; 
+	padding-inline: 0.9375rem;
+   margin: 0 auto;
+}
+
+
+.brand-logo__name {
+display: none;
+}
